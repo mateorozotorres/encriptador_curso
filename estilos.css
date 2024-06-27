@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea,
+button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Media Queries para dispositivos específicos */
+
+/* Estilos para teléfonos */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    textarea,
+    button {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+/* Estilos para tablets y dispositivos similares */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+/* Estilos para computadoras de escritorio */
+@media (min-width: 1025px) {
+    .container {
+        max-width: 600px;
+    }
+}
